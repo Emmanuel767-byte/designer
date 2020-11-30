@@ -1,0 +1,59 @@
+#home{
+    display: flex;
+    height: 92vh;
+    width: 100%;
+    /* 'https://th.bing.com/th/id/OIP.7ollr1ezbskqcNlX-ZG9uQHaE7?pid=Api&rs=1' */
+    background-image: url('http://cdn5.photoideas.guide/wp-content/uploads/2017/05/glass-ball-1746506_1920-803x530.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+    padding: 10px;
+    
+}
+div>.home_card {
+    display: flex;
+    height: fit-content;
+    padding: 10px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    padding: 5px;
+    margin-left: 200px;
+    /* opacity: 0.7 rgb(19, 18, 18); */
+}
+
+.home_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top:140px;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.MuiPaper-rounded {
+    color: white !important;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: transparent !important;
+   
+}
+
+.home_img{
+display: flex;
+float: right;
+min-width: 150px;
+max-width: 250px;
+height: auto;
+min-height: 200px;
+max-height: 250px;
+
+
+}
+
+.home_img >img{
+    border-radius: 10px;  
+    width: auto;
+    height: 100%;
+}
